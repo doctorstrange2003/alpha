@@ -1,7 +1,7 @@
 name: kbuilder
 on:
   workflow_dispatch:
-    branches: [ main]
+    
 jobs:
   node-docker:
     runs-on: ubuntu-latest
